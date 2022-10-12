@@ -1,0 +1,12 @@
+<div class="card shadow-lg" >
+    <div class="card-header">
+        <h5>Album : {{inputData?.albumId}}<br>Id:{{inputData?.id}} 
+            <br>
+            <small style="float: left">{{inputData?.title}}</small></h5>
+    </div>
+    <div class="card-body">
+        <a target="_blank" href={{inputData?.url}}  >
+            <img src={{inputData?.thumbnailUrl}} class= "img"alt="thumbnailUrl" style="width:150px">
+        </a>
+    </div>
+</div>
